@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEXUS - Explorador DummyJSON</title>
+  <title>NEXUS - API</title>
   
   <!-- Importamos los iconos de Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -13,10 +13,10 @@
 </head>
 <body>
 
-  <!-- Fondo atmosférico (Brillos rojos) -->
+  <!-- Fondo atmosférico -->
   <div class="bg-atmosphere"></div>
 
-  <!-- HEADER (Efecto Cristal) -->
+  <!-- HEADER -->
   <header>
     <div class="logo">
       <div class="logo-icon">
@@ -48,36 +48,36 @@
   <!-- MAIN CONTENT -->
   <main>
     
-        <!-- Sección Productos (Visible por defecto) -->
+       <!-- Sección Productos -->
     <section id="products" class="section active">
       <h2 class="section-title">Explorar Productos</h2>
-      <p class="section-subtitle">Catálogo completo consumido de DummyJSON</p>
+      <p class="section-subtitle">Catálogo completo</p>
       
-      <!-- Aquí se inyectarán las tarjetas dinámicamente -->
+      <!-- Grid y Paginación -->
       <div id="productsGrid" class="products-grid"></div>
+      <div id="pagination" class="pagination-container"></div>
     </section>
 
     <!-- Sección Usuarios -->
     <section id="users" class="section">
       <h2 class="section-title">Directorio de Usuarios</h2>
-      <p class="section-subtitle">Perfiles obtenidos de la API</p>
+      <p class="section-subtitle">Perfiles (W.I.P)</p>
     </section>
 
     <!-- Sección Posts -->
     <section id="posts" class="section">
       <h2 class="section-title">Publicaciones Recientes</h2>
-      <p class="section-subtitle">Posts de la comunidad</p>
+      <p class="section-subtitle">Posts de la comunidad (W.I.P)</p>
     </section>
 
     <!-- Sección Citas -->
     <section id="quotes" class="section">
       <h2 class="section-title">Colección de Citas</h2>
-      <p class="section-subtitle">Sabiduría e inspiración</p>
+      <p class="section-subtitle">Sabiduría e inspiración (W.I.P)</p>
     </section>
 
   </main>
 
-  <!-- Enlazamos nuestro JavaScript -->
   <script src="app.js"></script>
 </body>
 </html>
